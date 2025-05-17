@@ -1,0 +1,807 @@
+{
+  "courses": [
+    {
+      "courseID": "FRC001",
+      "name": "FRC Technicality and Basic Principles of FRC Robots",
+      "desc": "An introduction to the technical aspects and foundational principles of FRC robots.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Technical",
+          "color": "blue"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 49.99,
+      "category": "FRC",
+      "packages": ["PKG001", "PKG002", "PKG003", "PKG004"]
+    },
+    {
+      "courseID": "FRC002",
+      "name": "FRC Chassis Assembly Guide",
+      "desc": "Step-by-step guide to assembling an FRC robot chassis from scratch.",
+      "labels": [
+        {
+          "label": "Hands-on",
+          "color": "orange"
+        },
+        {
+          "label": "Technical",
+          "color": "blue"
+        }
+      ],
+      "preqs": ["FRC001"],
+      "priceIndependent": 59.99,
+      "category": "FRC",
+      "packages": ["PKG001"]
+    },
+    {
+      "courseID": "FRC003",
+      "name": "FRC Chassis Assembly",
+      "desc": "Advanced techniques for chassis assembly with a focus on durability and performance.",
+      "labels": [
+        {
+          "label": "Intermediate",
+          "color": "yellow"
+        },
+        {
+          "label": "Hands-on",
+          "color": "orange"
+        }
+      ],
+      "preqs": ["FRC002"],
+      "priceIndependent": 69.99,
+      "category": "FRC",
+      "packages": ["PKG003"]
+    },
+    {
+      "courseID": "FRC004",
+      "name": "FRC Programming",
+      "desc": "Learn how to program FRC robots using industry-standard tools and techniques.",
+      "labels": [
+        {
+          "label": "Technical",
+          "color": "blue"
+        },
+        {
+          "label": "Coding",
+          "color": "purple"
+        }
+      ],
+      "preqs": ["PROG001"],
+      "priceIndependent": 79.99,
+      "category": "FRC",
+      "packages": ["PKG002", "PKG003", "PKG004"]
+    },
+    {
+      "courseID": "FRC005",
+      "name": "FRC Focused 3D Modelling",
+      "desc": "Learn 3D modeling techniques specifically tailored for FRC robot design.",
+      "labels": [
+        {
+          "label": "Design",
+          "color": "pink"
+        },
+        {
+          "label": "Technical",
+          "color": "blue"
+        }
+      ],
+      "preqs": ["3D001"],
+      "priceIndependent": 69.99,
+      "category": "FRC",
+      "packages": ["PKG002"]
+    },
+    {
+      "courseID": "FRC006",
+      "name": "Wiring an FRC Robot",
+      "desc": "Comprehensive guide to electrical wiring for FRC robots, covering sensors, motors, and controls.",
+      "labels": [
+        {
+          "label": "Electrical",
+          "color": "red"
+        },
+        {
+          "label": "Hands-on",
+          "color": "orange"
+        }
+      ],
+      "preqs": ["FRC001"],
+      "priceIndependent": 59.99,
+      "category": "FRC",
+      "packages": ["PKG003", "PKG004"]
+    },
+    {
+      "courseID": "FRC007",
+      "name": "FRC Robot Design Basics",
+      "desc": "Fundamentals of robot design specifically for FRC competition requirements.",
+      "labels": [
+        {
+          "label": "Design",
+          "color": "pink"
+        },
+        {
+          "label": "Beginner",
+          "color": "green"
+        }
+      ],
+      "preqs": ["FRC001", "3D001"],
+      "priceIndependent": 59.99,
+      "category": "FRC",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "FRC008",
+      "name": "Advanced FRC Mechanisms and Systems",
+      "desc": "Detailed exploration of complex mechanisms and systems used in top-tier FRC robots.",
+      "labels": [
+        {
+          "label": "Advanced",
+          "color": "red"
+        },
+        {
+          "label": "Technical",
+          "color": "blue"
+        }
+      ],
+      "preqs": ["FRC001", "FRC002", "FRC006"],
+      "priceIndependent": 89.99,
+      "category": "FRC",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "FRC009",
+      "name": "Introduction to FRC and Design Principles",
+      "desc": "Overview of FRC competition and fundamental design principles for competitive robotics.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 49.99,
+      "category": "FRC",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "PROG001",
+      "name": "Introduction to Programming",
+      "desc": "Fundamentals of programming concepts and basic syntax for beginners.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Coding",
+          "color": "purple"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 39.99,
+      "category": "Programming",
+      "packages": ["PKG001"]
+    },
+    {
+      "courseID": "PROG002",
+      "name": "Introduction to Coding",
+      "desc": "Hands-on approach to learning coding basics with practical exercises.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Coding",
+          "color": "purple"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 39.99,
+      "category": "Programming",
+      "packages": ["PKG002", "PKG003", "PKG004"]
+    },
+    {
+      "courseID": "PROG003",
+      "name": "Programming with Java",
+      "desc": "Comprehensive course on Java programming language with applications in robotics.",
+      "labels": [
+        {
+          "label": "Intermediate",
+          "color": "yellow"
+        },
+        {
+          "label": "Coding",
+          "color": "purple"
+        }
+      ],
+      "preqs": ["PROG001"],
+      "priceIndependent": 59.99,
+      "category": "Programming",
+      "packages": ["PKG002", "PKG003", "PKG004"]
+    },
+    {
+      "courseID": "PROG004",
+      "name": "Vision Processing",
+      "desc": "Advanced programming techniques for computer vision and image processing in robotics.",
+      "labels": [
+        {
+          "label": "Advanced",
+          "color": "red"
+        },
+        {
+          "label": "Coding",
+          "color": "purple"
+        }
+      ],
+      "preqs": ["PROG003"],
+      "priceIndependent": 79.99,
+      "category": "Programming",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "3D001",
+      "name": "3D Design 101",
+      "desc": "Introduction to 3D design concepts, tools, and basic modeling techniques.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 49.99,
+      "category": "3D Design",
+      "packages": ["PKG002", "PKG003", "PKG004"]
+    },
+    {
+      "courseID": "3D002",
+      "name": "Advanced 3D Modelling",
+      "desc": "Advanced techniques in 3D modeling including complex surfaces and assemblies.",
+      "labels": [
+        {
+          "label": "Advanced",
+          "color": "red"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": ["3D001"],
+      "priceIndependent": 69.99,
+      "category": "3D Design",
+      "packages": ["PKG003", "PKG004", "PKG006"]
+    },
+    {
+      "courseID": "3D003",
+      "name": "Introduction to Online 3D Modeling",
+      "desc": "Learn to use cloud-based 3D modeling platforms for collaborative design.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Cloud",
+          "color": "teal"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 39.99,
+      "category": "3D Design",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "3D004",
+      "name": "Basic Sketching and Part Modeling",
+      "desc": "Learn fundamental sketching techniques and how to create basic parts in CAD software.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 44.99,
+      "category": "3D Design",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "3D005",
+      "name": "Assemblies and Mates",
+      "desc": "Learn how to create complex assemblies and use mates to define relationships between parts.",
+      "labels": [
+        {
+          "label": "Intermediate",
+          "color": "yellow"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": ["3D001", "3D004"],
+      "priceIndependent": 59.99,
+      "category": "3D Design",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "3D006",
+      "name": "Technical Drawings and Documentation",
+      "desc": "Create professional technical drawings and documentation for manufacturing.",
+      "labels": [
+        {
+          "label": "Intermediate",
+          "color": "yellow"
+        },
+        {
+          "label": "Documentation",
+          "color": "gray"
+        }
+      ],
+      "preqs": ["3D001"],
+      "priceIndependent": 54.99,
+      "category": "3D Design",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "3D007",
+      "name": "Introduction to Technical Design",
+      "desc": "Overview of technical design principles and processes for engineering applications.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 44.99,
+      "category": "3D Design",
+      "packages": ["PKG006"]
+    },
+    {
+      "courseID": "ROB001",
+      "name": "Robot Reveals",
+      "desc": "Study of robot reveal strategies and showcase techniques for competitions.",
+      "labels": [
+        {
+          "label": "Presentation",
+          "color": "indigo"
+        },
+        {
+          "label": "Strategy",
+          "color": "teal"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 39.99,
+      "category": "Robotics",
+      "packages": ["PKG003", "PKG004"]
+    },
+    {
+      "courseID": "ROB002",
+      "name": "Robotics Based Project",
+      "desc": "Hands-on project-based learning with practical robotics challenges and solutions.",
+      "labels": [
+        {
+          "label": "Project",
+          "color": "orange"
+        },
+        {
+          "label": "Hands-on",
+          "color": "orange"
+        }
+      ],
+      "preqs": ["FRC001", "PROG001"],
+      "priceIndependent": 69.99,
+      "category": "Robotics",
+      "packages": ["PKG002"]
+    },
+    {
+      "courseID": "ROB003",
+      "name": "Testing What You Have Learned",
+      "desc": "Comprehensive testing methods and validation techniques for robotics systems.",
+      "labels": [
+        {
+          "label": "Validation",
+          "color": "cyan"
+        },
+        {
+          "label": "Hands-on",
+          "color": "orange"
+        }
+      ],
+      "preqs": ["ROB002"],
+      "priceIndependent": 59.99,
+      "category": "Robotics",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PR001",
+      "name": "Understanding PR in FIRST Robotics",
+      "desc": "Introduction to public relations strategies specific to FIRST Robotics competitions.",
+      "labels": [
+        {
+          "label": "Communication",
+          "color": "indigo"
+        },
+        {
+          "label": "Strategy",
+          "color": "teal"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 39.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG001", "PKG004"]
+    },
+    {
+      "courseID": "PR002",
+      "name": "Media Relations 101",
+      "desc": "Learn how to effectively communicate with media outlets to promote your team.",
+      "labels": [
+        {
+          "label": "Communication",
+          "color": "indigo"
+        },
+        {
+          "label": "Beginner",
+          "color": "green"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 44.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PR003",
+      "name": "Social Media Strategy",
+      "desc": "Develop an effective social media strategy for team promotion and community engagement.",
+      "labels": [
+        {
+          "label": "Digital",
+          "color": "purple"
+        },
+        {
+          "label": "Strategy",
+          "color": "teal"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 49.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PR004",
+      "name": "Sponsorship Engagement",
+      "desc": "Strategies for finding, securing, and maintaining sponsors for your robotics team.",
+      "labels": [
+        {
+          "label": "Fundraising",
+          "color": "green"
+        },
+        {
+          "label": "Communication",
+          "color": "indigo"
+        }
+      ],
+      "preqs": ["PR001"],
+      "priceIndependent": 59.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PR005",
+      "name": "Event Planning and Coverage",
+      "desc": "Plan and execute successful robotics events with effective media coverage.",
+      "labels": [
+        {
+          "label": "Event",
+          "color": "orange"
+        },
+        {
+          "label": "Planning",
+          "color": "blue"
+        }
+      ],
+      "preqs": ["PR001"],
+      "priceIndependent": 54.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PR006",
+      "name": "Crisis Management",
+      "desc": "Techniques for managing and mitigating public relations crises effectively.",
+      "labels": [
+        {
+          "label": "Advanced",
+          "color": "red"
+        },
+        {
+          "label": "Management",
+          "color": "gray"
+        }
+      ],
+      "preqs": ["PR001", "PR002"],
+      "priceIndependent": 64.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PR007",
+      "name": "Community Engagement",
+      "desc": "Strategies for meaningful community engagement and outreach programs.",
+      "labels": [
+        {
+          "label": "Outreach",
+          "color": "green"
+        },
+        {
+          "label": "Community",
+          "color": "purple"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 49.99,
+      "category": "PR & Marketing",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "ENT001",
+      "name": "What is Entrepreneurship?",
+      "desc": "Introduction to entrepreneurship concepts, mindset, and fundamentals.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Business",
+          "color": "blue"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 39.99,
+      "category": "Entrepreneurship",
+      "packages": ["PKG005"]
+    },
+    {
+      "courseID": "ENT002",
+      "name": "Entrepreneurship Ecosystem",
+      "desc": "Understanding the components and dynamics of the entrepreneurship ecosystem.",
+      "labels": [
+        {
+          "label": "Ecosystem",
+          "color": "green"
+        },
+        {
+          "label": "Business",
+          "color": "blue"
+        }
+      ],
+      "preqs": ["ENT001"],
+      "priceIndependent": 49.99,
+      "category": "Entrepreneurship",
+      "packages": ["PKG005"]
+    },
+    {
+      "courseID": "ENT003",
+      "name": "Motivation and Goal Setting",
+      "desc": "Techniques for maintaining motivation and setting effective goals for entrepreneurs.",
+      "labels": [
+        {
+          "label": "Personal Development",
+          "color": "purple"
+        },
+        {
+          "label": "Mindset",
+          "color": "indigo"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 44.99,
+      "category": "Entrepreneurship",
+      "packages": ["PKG005"]
+    },
+    {
+      "courseID": "SAFE001",
+      "name": "Safety FIRST",
+      "desc": "Comprehensive guide to safety protocols and procedures in robotics environments.",
+      "labels": [
+        {
+          "label": "Safety",
+          "color": "red"
+        },
+        {
+          "label": "Essential",
+          "color": "orange"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 34.99,
+      "category": "Safety",
+      "packages": ["PKG003"]
+    },
+    {
+      "courseID": "SAFE002",
+      "name": "Day Safety FIRST",
+      "desc": "Daily safety practices and procedures for robotics team operations.",
+      "labels": [
+        {
+          "label": "Safety",
+          "color": "red"
+        },
+        {
+          "label": "Practical",
+          "color": "green"
+        }
+      ],
+      "preqs": ["SAFE001"],
+      "priceIndependent": 39.99,
+      "category": "Safety",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "DRONE001",
+      "name": "What is a Drone?",
+      "desc": "Introduction to drone technology, types, components, and applications.",
+      "labels": [
+        {
+          "label": "Beginner",
+          "color": "green"
+        },
+        {
+          "label": "Technology",
+          "color": "blue"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 34.99,
+      "category": "Drones",
+      "packages": ["PKG007"]
+    },
+    {
+      "courseID": "DRONE002",
+      "name": "How Does a Drone Fly?",
+      "desc": "Physics and mechanics behind drone flight, control systems, and aerodynamics.",
+      "labels": [
+        {
+          "label": "Technical",
+          "color": "blue"
+        },
+        {
+          "label": "Physics",
+          "color": "purple"
+        }
+      ],
+      "preqs": ["DRONE001"],
+      "priceIndependent": 44.99,
+      "category": "Drones",
+      "packages": ["PKG007"]
+    },
+    {
+      "courseID": "PM001",
+      "name": "Project Planning and Design",
+      "desc": "Methodologies for effective project planning and design in technological contexts.",
+      "labels": [
+        {
+          "label": "Planning",
+          "color": "blue"
+        },
+        {
+          "label": "Design",
+          "color": "pink"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 49.99,
+      "category": "Project Management",
+      "packages": ["PKG004"]
+    },
+    {
+      "courseID": "PM002",
+      "name": "Initiating a Team",
+      "desc": "Strategies for building and initiating effective robotics teams from scratch.",
+      "labels": [
+        {
+          "label": "Team Building",
+          "color": "orange"
+        },
+        {
+          "label": "Leadership",
+          "color": "blue"
+        }
+      ],
+      "preqs": [],
+      "priceIndependent": 44.99,
+      "category": "Project Management",
+      "packages": ["PKG004"]
+    }
+  ],
+  "packages": [
+    {
+      "packageID": "PKG001",
+      "name": "Introduction Package",
+      "desc": "A starter package for those new to FRC robotics and programming.",
+      "courses": ["FRC001", "FRC002", "PROG001", "PR001"],
+      "price": 149.99,
+      "discount": 20
+    },
+    {
+      "packageID": "PKG002",
+      "name": "Basic Package",
+      "desc": "Fundamental courses covering robotics, programming, and 3D design basics.",
+      "courses": ["FRC001", "PROG002", "3D001", "PROG003", "FRC004", "FRC005", "ROB002"],
+      "price": 299.99,
+      "discount": 25
+    },
+    {
+      "packageID": "PKG003",
+      "name": "Intermediate Package",
+      "desc": "Take your skills to the next level with more advanced topics in robotics and design.",
+      "courses": ["FRC001", "ROB001", "FRC003", "FRC006", "PROG002", "3D001", "PROG003", "FRC004", "SAFE001", "3D002"],
+      "price": 449.99,
+      "discount": 30
+    },
+    {
+      "packageID": "PKG004",
+      "name": "Advanced Package",
+      "desc": "Comprehensive package covering all aspects of robotics, programming, and team management.",
+      "courses": [
+        "FRC001", "FRC006", "ROB001", "PROG002", "3D001", "PROG003", "3D003", 
+        "FRC004", "SAFE002", "PROG004", "3D002", "ROB003", "PR001", "PR002", 
+        "PR003", "PR004", "PR005", "PR006", "PR007", "PM001", "PM002"
+      ],
+      "price": 899.99,
+      "discount": 40
+    },
+    {
+      "packageID": "PKG005",
+      "name": "Entrepreneurship Package",
+      "desc": "Learn the essentials of entrepreneurship from ideation to implementation.",
+      "courses": ["ENT001", "ENT002", "ENT003"],
+      "price": 129.99,
+      "discount": 15
+    },
+    {
+      "packageID": "PKG006",
+      "name": "Computer Aided Technical Design",
+      "desc": "Focus on 3D design and technical drawing skills for engineering applications.",
+      "courses": ["3D007", "3D004", "3D005", "3D006", "FRC009", "FRC007", "FRC008", "3D002"],
+      "price": 349.99,
+      "discount": 25
+    },
+    {
+      "packageID": "PKG007",
+      "name": "What is a Drone and How Does it Fly?",
+      "desc": "Introduction to drone technology and flight mechanics.",
+      "courses": ["DRONE001", "DRONE002"],
+      "price": 74.99,
+      "discount": 10
+    }
+  ]
+} 
